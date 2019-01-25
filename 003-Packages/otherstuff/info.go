@@ -5,6 +5,6 @@ import (
 	"runtime"
 )
 
-func Dave() {
+func GoInfo() {
 	fmt.Printf("runtime: %s\narchitecture: %s", runtime.GOOS, runtime.GOARCH)
 }

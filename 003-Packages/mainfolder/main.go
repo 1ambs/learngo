@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println("This is from the main program")
-	stuff.Dave()
+	stuff.GoInfo()
 }
