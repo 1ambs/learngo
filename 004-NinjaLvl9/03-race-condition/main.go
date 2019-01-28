@@ -19,7 +19,7 @@ func main() {
 	for i := 0; i < gs; i++ {
 		go func() {
 			v := counter
-			// time.Sleep(time.Second)
+			//time.Sleep(time.Nanosecond)
 			runtime.Gosched()
 			v++
 			counter = v
