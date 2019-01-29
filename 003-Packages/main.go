@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"1ambs.com/learngo/003-Packages/otherstuff"
+	"1ambs.com/learngo/003-Packages/stuff"
 )
 
 func main() {
