@@ -1,10 +1,10 @@
 package main
 
 import (
-	"1ambs.com/learngo/008-NinjaLvl12/dog"
+	"1ambs.com/learngo/008-NinjaLvl12/dogpkg"
 	"fmt"
 )
 
 func main() {
-	fmt.Println("47 human years is", dog.Years(47), "dog years")
+	fmt.Println("47 human years is", dogpkg.Years(47), "dogpkg years")
 }
